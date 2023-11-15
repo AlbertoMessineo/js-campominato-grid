@@ -4,14 +4,13 @@
 // board generator:
 
 function boardGen(){
-const elementBoard = document.querySelector(div.board);
-elementBoard.classList.add('board');
+const elementBoard = document.querySelector('div.board');
 
-    for( let i= 1; i <100; i++){
+    for( let i= 1; i < 101; i++){
 
         const elementCell = document.createElement('div');    
         elementBoard.append(elementCell);
-        elementBox.classList.add("cell");
+        elementCell.classList.add("cell");
     }
 }
 boardGen();
